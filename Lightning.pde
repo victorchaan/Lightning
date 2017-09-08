@@ -30,7 +30,7 @@ void draw()
   {
    
    endY = startY + (int)(Math.random()*10);
-   System.out.println(startX);
+   
    endX = startX + (int)(Math.random()*32)-16;
    line(startX,startY,endX,endY);
    startX = endX;
@@ -38,7 +38,7 @@ void draw()
    
   
    eY = sY + (int)(Math.random()*10);
-   System.out.println(sX);
+   
    eX = sX + (int)(Math.random()*32)-16;
    line(sX,sY,eX,eY);
    sX = eX;
