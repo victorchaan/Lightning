@@ -28,7 +28,7 @@ void draw()
   
   while(endY < 500)
   {
-   System.out.println(startY);
+   
    endY = startY + (int)(Math.random()*10);
    System.out.println(startX);
    endX = startX + (int)(Math.random()*32)-16;
@@ -36,7 +36,7 @@ void draw()
    startX = endX;
    startY = endY;
    
-   System.out.println(sY);
+  
    eY = sY + (int)(Math.random()*10);
    System.out.println(sX);
    eX = sX + (int)(Math.random()*32)-16;
